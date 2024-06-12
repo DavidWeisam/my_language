@@ -12,7 +12,7 @@ int main() {
     char source_code[BUFFER_SIZE];
 
     while (1) {
-        printf("dudu > ");
+        printf("dudu > ");  // dudu the king
         if (fgets(source_code, BUFFER_SIZE, stdin) == NULL) {
             fprintf(stderr, "Error reading input\n");
             return 1;
